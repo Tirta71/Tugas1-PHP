@@ -11,8 +11,22 @@ body {
   padding: 10px 0;
   text-align: center;
 }
+.container-footer {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
+}
+
+.social-icons {
+  display: flex;
+  gap: 1rem;
+}
 .hero-section {
-  height: 80vh;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .nama-title {

@@ -3,6 +3,8 @@ $nama = "Tirta Samara";
 $email = "tirta4132@gmail.com";
 $nomor_telepon = "08123456789";
 $pekerjaan = "Fullstack Web Developer";
+
+$sosial_media =['https://www.linkedin.com/in/tirta-samara-b84a48275/','https://github.com/Tirta71'];
 ?>
 
 <!DOCTYPE html>
@@ -15,6 +17,7 @@ $pekerjaan = "Fullstack Web Developer";
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
     <link rel="stylesheet" href="./assets/style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
 <header>
@@ -65,11 +68,19 @@ $pekerjaan = "Fullstack Web Developer";
     </section>
 </main>
 
+
+
 <footer class="footer">
-    <div class="container">
+    <div class="container container-footer">
         <span class="text-muted">© <?php echo date("Y"); ?> Website Saya</span>
+        <div class="social-icons">
+            <a href="<?php echo $sosial_media[0]; ?>" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="<?php echo $sosial_media[1]; ?>" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
     </div>
 </footer>
+
+
 
 <!-- Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
